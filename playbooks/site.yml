@@ -1,0 +1,3 @@
+- hosts: some_host_group
+  roles:
+    - oasis-roles.role_name

@@ -1,0 +1,8 @@
+# These can, optionally, be pegged to a specific treeish in
+# the git repository. Ideally, they would at least be pegged to a branch
+# if there is need to support multiple versions of a target application,
+# then this install will always pull from the branch name given.
+#
+# By default, the role will pull from the head of 'master' at the time
+# that the galaxy install step is executed.
+- oasis-roles.role_name
