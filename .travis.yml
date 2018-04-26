@@ -17,4 +17,4 @@ script:
   - ansible-playbook --syntax-check playbooks/site.yml
   - yamllint -s -c tests/yamllint.yml $(find . -name '*.yml')
   - ansible-lint playbooks/site.yml
-  - flake8 $(fine . -name '*.py')
+  - flake8 $(find . -name '*.py')
